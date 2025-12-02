@@ -1,6 +1,8 @@
 import Sidebar from "@/components/sidebar";
 import UserProfile from "@/components/user-profile";
 
+export const dynamic = "force-dynamic";
+
 export default async function BadLayout({
   children,
 }: {
